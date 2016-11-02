@@ -1,0 +1,877 @@
+@charset "UTF-8";
+html,
+body,
+div,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+  margin: 0;
+  padding: 0; }
+
+i,
+b {
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+ul,
+dl {
+  list-style: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+a {
+  color: #b2b2b2;
+  text-decoration: none; }
+
+body {
+  font-family: FZYouHJW, "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+  color: #666;
+  font-size: 14px;
+  background: url("../images/st2/overview-bg.png") no-repeat center top #e6e6e6; }
+
+/*-----------------------------------------------------------------------------
+样式范围：header区域
+功能：对头部样式的初始处理
+作者：李福玲
+-----------------------------------------------------------------------------*/
+#headerwrap {
+  background: #f9f9f9;
+  background-image: linear-gradient(#fff, #f5f5f5);
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 22; }
+  #headerwrap .headerMain {
+    position: relative;
+    z-index: inherit;
+    height: 100px;
+    background: url("../images/order/header-black-bg.png") left top repeat-x; }
+    #headerwrap .headerMain .container {
+      margin: 0 auto;
+      width: 1120px; }
+      #headerwrap .headerMain .container .logo {
+        float: left;
+        padding: 25px 0 0; }
+        #headerwrap .headerMain .container .logo a {
+          display: block;
+          margin-left: -5px;
+          width: 50px;
+          height: 50px;
+          background: url("../images/order/logo-T.png") no-repeat left top;
+          -webkit-background-size: 50px auto;
+          background-size: 50px;
+          text-indent: -9999px; }
+      #headerwrap .headerMain .container .nav {
+        float: right;
+        line-height: 25px; }
+        #headerwrap .headerMain .container .nav .navMain {
+          float: left;
+          padding-top: 19px; }
+          #headerwrap .headerMain .container .nav .navMain li {
+            float: left; }
+            #headerwrap .headerMain .container .nav .navMain li a {
+              filter: alpha(opacity=60);
+              opacity: 0.6;
+              display: block;
+              height: 26px;
+              padding: 25px 20px 0;
+              line-height: 14px;
+              font-size: 14px;
+              color: white; }
+              #headerwrap .headerMain .container .nav .navMain li a:hover {
+                opacity: 1; }
+        #headerwrap .headerMain .container .nav .login {
+          position: relative;
+          float: right;
+          padding: 39px 0 0 41px;
+          margin-left: 20px; }
+          #headerwrap .headerMain .container .nav .login .loginBtn {
+            display: block;
+            width: 96px;
+            color: #b2b2b2;
+            position: relative;
+            top: -2px;
+            height: 26px;
+            line-height: 26px;
+            font-size: 12px;
+            text-align: center;
+            cursor: pointer; }
+            #headerwrap .headerMain .container .nav .login .loginBtn:hover {
+              color: #fff; }
+          #headerwrap .headerMain .container .nav .login .loginBtn:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            width: 20px;
+            height: 20px;
+            background: url(../images/order/account-menu-icon.png) no-repeat -20px top; }
+          #headerwrap .headerMain .container .nav .login .loginBtn:after {
+            position: absolute;
+            content: "";
+            top: 10px;
+            right: 0;
+            overflow: hidden;
+            width: 15px;
+            height: 13px;
+            background: url("../images/order/account-menu-icon.png") -25px -30px; }
+          #headerwrap .headerMain .container .nav .login .second-menu {
+            z-index: 10;
+            position: absolute;
+            left: 10px;
+            top: 70px;
+            width: 168px;
+            background: #FFF;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.04) inset;
+            display: none; }
+            #headerwrap .headerMain .container .nav .login .second-menu .menu-avatar {
+              width: 46px;
+              height: 46px;
+              margin: 10px auto;
+              border-radius: 23px;
+              background: url("../images/order/default-user-avatar.png") no-repeat left top;
+              background-size: contain; }
+            #headerwrap .headerMain .container .nav .login .second-menu .menu-name {
+              height: 12px;
+              padding-bottom: 19px;
+              line-height: 12px;
+              text-align: center;
+              font-size: 12px;
+              color: #757575;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+            #headerwrap .headerMain .container .nav .login .second-menu .menu-list {
+              overflow: hidden;
+              border-radius: 0 0 8px 8px; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list li {
+                overflow: hidden;
+                position: relative;
+                height: 42px;
+                border-top: 1px solid #F0F0F0;
+                line-height: 42px;
+                font-size: 12px; }
+                #headerwrap .headerMain .container .nav .login .second-menu .menu-list li:hover {
+                  background: #F0F0F0; }
+                #headerwrap .headerMain .container .nav .login .second-menu .menu-list li a {
+                  display: block;
+                  padding-left: 54px;
+                  color: #616161; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .myorder a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 25px;
+                background: url("../images/order/account-menu-icon.png") left -38px no-repeat; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .customer-service a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 25px;
+                background: url("../images/order/account-menu-icon.png") -20px -38px no-repeat; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .benefit a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 25px;
+                background: url("../images/order/account-menu-icon.png") -20px -80px no-repeat; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .information a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 24px;
+                overflow: hidden;
+                background: url("../images/order/account-menu-icon.png") left -60px no-repeat; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .address a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 24px;
+                overflow: hidden;
+                background: url("../images/order/account-menu-icon.png") -20px -60px no-repeat; }
+              #headerwrap .headerMain .container .nav .login .second-menu .menu-list .logout a:before {
+                position: absolute;
+                left: 20px;
+                top: 8px;
+                display: block;
+                content: "";
+                width: 20px;
+                height: 24px;
+                overflow: hidden;
+                background: url("../images/order/account-menu-icon.png") left -80px no-repeat; }
+          #headerwrap .headerMain .container .nav .login .second-menu:after {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: -7px;
+            width: 14px;
+            height: 8px;
+            margin-left: -7px;
+            background: url("../images/order/cart-arrow.png") no-repeat; }
+          #headerwrap .headerMain .container .nav .login :hover ::after {
+            background: url("../images/order/account-menu-icon.png") -5px -30px; }
+          #headerwrap .headerMain .container .nav .login :hover ::before {
+            background: url(../images/order/account-menu-icon.png) no-repeat left top; }
+          #headerwrap .headerMain .container .nav .login:hover .second-menu {
+            display: block; }
+        #headerwrap .headerMain .container .nav .login:before {
+          position: absolute;
+          left: 0;
+          top: 44px;
+          overflow: hidden;
+          display: block;
+          content: " ";
+          width: 1px;
+          height: 13px;
+          background: rgba(255, 255, 255, 0.12); }
+  #headerwrap .headerMain:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
+
+.mainwrap {
+  min-height: 400px;
+  height: auto !important;
+  height: 400px;
+  width: 100%; }
+  .mainwrap .main-content {
+    clear: both;
+    width: 1120px;
+    min-height: 600px;
+    height: auto !important;
+    height: 600px;
+    padding: 0 0 25px;
+    margin: 0 auto;
+    padding-top: 40px; }
+    .mainwrap .main-content .order-information {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px, #DCDCDC 0 1px 0, #DDD 0 -1px 0;
+      background: #fff;
+      margin-bottom: 30px; }
+      .mainwrap .main-content .order-information .title {
+        height: 60px;
+        padding: 0 10px 0 24px;
+        background: url(../images/order/gray-box-title-bg.jpg) repeat-x;
+        line-height: 60px;
+        border-bottom: 1px solid #CFCFCF;
+        border-radius: 8px 8px 0 0;
+        box-shadow: rgba(0, 0, 0, 0.12) 0 1px 8px; }
+        .mainwrap .main-content .order-information .title h2 {
+          font-size: 18px;
+          font-weight: 400;
+          color: #626262; }
+    .mainwrap .main-content .address-box .detail-add {
+      overflow: hidden;
+      border-radius: 0 0 8px 8px;
+      font-size: 14px;
+      color: #626262; }
+      .mainwrap .main-content .address-box .detail-add .add-list {
+        padding: 24px 12px 0; }
+        .mainwrap .main-content .address-box .detail-add .add-list .lists {
+          width: 254px;
+          height: 156px;
+          margin: 0 0 24px 12px;
+          border-radius: 5px;
+          float: left;
+          position: relative;
+          cursor: pointer;
+          border: 1px solid #E1E1E1;
+          background: none; }
+          .mainwrap .main-content .address-box .detail-add .add-list .lists .add-box {
+            padding: 11px;
+            height: 134px; }
+            .mainwrap .main-content .address-box .detail-add .add-list .lists .add-box .names {
+              height: 14px;
+              line-height: 14px; }
+            .mainwrap .main-content .address-box .detail-add .add-list .lists .add-box .tel {
+              height: 14px;
+              padding-top: 16px;
+              line-height: 14px; }
+            .mainwrap .main-content .address-box .detail-add .add-list .lists .add-box .add {
+              padding-top: 12px;
+              line-height: 20px; }
+          .mainwrap .main-content .address-box .detail-add .add-list .lists:hover .editor {
+            display: block; }
+        .mainwrap .main-content .address-box .detail-add .add-list .active {
+          background: url("../images/order/choose-address-icon.png") 229px 7px no-repeat #FFF;
+          border: 3px solid #83A7FF; }
+        .mainwrap .main-content .address-box .detail-add .add-list .od-add:hover {
+          background: #E1E1E1; }
+        .mainwrap .main-content .address-box .detail-add .add-list .od-add span {
+          display: block;
+          width: 16px;
+          height: 16px;
+          margin: 43px auto 15px;
+          background: url("../images/order/btn-icon.png") -14px -817px no-repeat; }
+        .mainwrap .main-content .address-box .detail-add .add-list .od-add p {
+          height: 14px;
+          line-height: 14px;
+          text-align: center;
+          color: #9F9F9F; }
+    .mainwrap .main-content .address-box .editor {
+      display: none;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 28px;
+      background: #E1E1E1;
+      border-top: 1px solid #E1E1E1; }
+      .mainwrap .main-content .address-box .editor span {
+        cursor: pointer; }
+        .mainwrap .main-content .address-box .editor span:hover {
+          background: #E1E1E1; }
+      .mainwrap .main-content .address-box .editor .revise {
+        float: left;
+        display: block;
+        height: 28px;
+        width: 127px;
+        background: #FFF;
+        text-align: center;
+        line-height: 28px;
+        font-size: 12px; }
+      .mainwrap .main-content .address-box .editor .delete {
+        float: right;
+        width: 126px;
+        display: block;
+        height: 28px;
+        background: #FFF;
+        text-align: center;
+        line-height: 28px;
+        font-size: 12px; }
+    .mainwrap .main-content .bill-box .detail-bill {
+      padding: 23px 24px 29px; }
+      .mainwrap .main-content .bill-box .detail-bill .invoice-detail {
+        position: relative;
+        height: 36px;
+        line-height: 36px; }
+      .mainwrap .main-content .bill-box .detail-bill .active {
+        background: url(../images/order/warranty-tips.png) 130px 10px no-repeat; }
+      .mainwrap .main-content .bill-box .detail-bill .last {
+        padding-top: 6px;
+        line-height: 24px; }
+      .mainwrap .main-content .bill-box .detail-bill .radio-box {
+        position: relative;
+        height: 36px;
+        line-height: 36px; }
+        .mainwrap .main-content .bill-box .detail-bill .radio-box lable input {
+          background-color: transparent;
+          box-shadow: none;
+          display: none; }
+        .mainwrap .main-content .bill-box .detail-bill .radio-box lable span {
+          top: 4px;
+          margin: 0 5px;
+          overflow: hidden;
+          display: inline-block;
+          position: relative;
+          width: 10px;
+          height: 10px;
+          padding: 4px;
+          background: linear-gradient(#F5F6F6, #FDFDFD);
+          border: 1px solid #E6E6E6;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) inset;
+          cursor: pointer; }
+          .mainwrap .main-content .bill-box .detail-bill .radio-box lable span .blue-on {
+            overflow: hidden;
+            display: block;
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(#749AF4, #668EF2);
+            border: 1px solid #5D81D9;
+            border-radius: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+        .mainwrap .main-content .bill-box .detail-bill .radio-box .proving {
+          width: 328px;
+          border: 1px solid #E66157;
+          opacity: 1;
+          height: 36px;
+          border-radius: 6px;
+          line-height: 36px;
+          font-size: 14px;
+          height: 36px;
+          position: absolute;
+          left: 220px;
+          top: -1px;
+          display: none; }
+          .mainwrap .main-content .bill-box .detail-bill .radio-box .proving input {
+            border: 0;
+            outline: none;
+            width: 300px;
+            margin-top: 8px;
+            padding: 0 13px 0 15px;
+            color: #333; }
+          .mainwrap .main-content .bill-box .detail-bill .radio-box .proving .verify-error {
+            display: none;
+            right: 6px;
+            top: 5px;
+            background: #E66157;
+            opacity: 1;
+            position: absolute;
+            padding: 0 9px;
+            border-radius: 5px;
+            line-height: 26px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #fff; }
+    .mainwrap .main-content .product-list .detalis-title {
+      padding: 0 0 0 30px;
+      font-size: 12px;
+      height: 38px;
+      background: #E6E7E8;
+      border-bottom: 1px solid #E1E1E1;
+      line-height: 38px;
+      color: #666; }
+      .mainwrap .main-content .product-list .detalis-title .goods-name {
+        float: left;
+        text-align: left; }
+      .mainwrap .main-content .product-list .detalis-title .goods-price {
+        width: 152px;
+        padding-right: 30px;
+        text-align: right;
+        float: right; }
+      .mainwrap .main-content .product-list .detalis-title .goods-number {
+        width: 152px;
+        padding-right: 30px;
+        text-align: right;
+        float: right; }
+      .mainwrap .main-content .product-list .detalis-title .goods-total {
+        width: 152px;
+        padding-right: 30px;
+        text-align: right;
+        float: right; }
+    .mainwrap .main-content .product-list .goods-table .goods-group {
+      padding-left: 30px; }
+      .mainwrap .main-content .product-list .goods-table .goods-group .goods-item {
+        position: relative;
+        min-height: 120px;
+        height: auto !important;
+        height: 120px;
+        color: #333; }
+        .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-pic {
+          margin-top: 20px;
+          border: 1px solid #F0F0F0;
+          width: 78px;
+          height: 78px;
+          border-radius: 4px;
+          float: left; }
+          .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-pic a img {
+            width: 78px;
+            height: 78px;
+            border-radius: 4px; }
+        .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-name {
+          width: 315px;
+          margin-left: 21px;
+          line-height: 120px;
+          float: left;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+          .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-name a {
+            color: #666; }
+        .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-price {
+          overflow: hidden;
+          float: right;
+          width: 182px;
+          line-height: 120px;
+          text-align: center; }
+        .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-number {
+          overflow: hidden;
+          float: right;
+          width: 182px;
+          line-height: 120px;
+          text-align: center; }
+        .mainwrap .main-content .product-list .goods-table .goods-group .goods-item .item-total {
+          overflow: hidden;
+          float: right;
+          line-height: 120px;
+          width: 103px;
+          padding-right: 30px;
+          text-align: right; }
+    .mainwrap .main-content .product-list .goods-table2 .order-discount-line {
+      padding: 21px 30px;
+      border-top: 1px solid #F0F0F0;
+      line-height: 30px;
+      text-align: right; }
+      .mainwrap .main-content .product-list .goods-table2 .order-discount-line .order-total-line {
+        line-height: 40px;
+        font-size: 18px;
+        font-weight: 400; }
+    .mainwrap .main-content .product-list .box-inner .last-payment {
+      padding: 16px 10px 16px 30px;
+      border-top: 1px solid #DADADA;
+      overflow: hidden; }
+      .mainwrap .main-content .product-list .box-inner .last-payment .sub-btn {
+        float: right;
+        width: 153px;
+        margin-bottom: 0;
+        height: 48px;
+        background: linear-gradient(#799CEA, #567CE6);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 -1px 2px rgba(0, 0, 0, 0.2);
+        display: block;
+        padding: 1px;
+        margin: 0 auto;
+        border-radius: 6px;
+        text-shadow: rgba(255, 255, 255, 0.49609) 0 1px 0; }
+        .mainwrap .main-content .product-list .box-inner .last-payment .sub-btn a {
+          width: 153px;
+          height: 44px;
+          line-height: 45px;
+          text-align: center;
+          font-size: 18px;
+          background: linear-gradient(#7EA3F5, #5A82F0);
+          box-shadow: none;
+          text-shadow: none;
+          color: #FFF;
+          display: block;
+          padding: 2px 0;
+          border-radius: 6px; }
+          .mainwrap .main-content .product-list .box-inner .last-payment .sub-btn a:hover {
+            background: #5f7ed7; }
+      .mainwrap .main-content .product-list .box-inner .last-payment .prices {
+        float: right;
+        line-height: 24px;
+        padding: 12px 30px 12px 0;
+        font-size: 18px; }
+        .mainwrap .main-content .product-list .box-inner .last-payment .prices em {
+          position: relative;
+          top: 1px;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500; }
+
+/*
+ * 蒙版的样式
+ */
+.module-dialog-layer {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .6; }
+
+/*
+ * 添加新的地址的样式
+ */
+.module-dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: 90000;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+  .module-dialog .dialog-panel {
+    width: 704px;
+    height: 530px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    background: url(../images/order/dialog-gray-bg.png) bottom repeat-x #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.08), 0 7px 10px rgba(0, 0, 0, 0.09), 0 22px 22px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    display: inline-block; }
+    .module-dialog .dialog-panel .topbar {
+      height: 61px;
+      padding: 0 15px;
+      background: url(../images/order/dialog-gray-bg.png) repeat-x;
+      border-bottom: 1px solid #d1d1d1;
+      border-radius: 13px 13px 0 0;
+      line-height: 61px;
+      -moz-box-shadow: 0 2px 6px #d1d1d1;
+      -webkit-box-shadow: 0 2px 6px #d1d1d1;
+      box-shadow: 0 2px 6px #d1d1d1; }
+      .module-dialog .dialog-panel .topbar h3 {
+        float: left;
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #666; }
+      .module-dialog .dialog-panel .topbar span {
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        right: 17px;
+        top: 18px;
+        z-index: 20;
+        width: 16px;
+        height: 17px;
+        padding: 4px 5px;
+        background: url(../images/order/ui-p.png) -16px -16px no-repeat;
+        text-indent: -9999em;
+        opacity: .7;
+        cursor: pointer; }
+    .module-dialog .dialog-panel .dialog-con {
+      min-width: 220px;
+      min-height: 150px; }
+      .module-dialog .dialog-panel .dialog-con .animate-layer {
+        width: 704px;
+        height: 392px;
+        position: relative; }
+        .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner {
+          position: absolute;
+          left: 0;
+          top: -9px;
+          width: 704px;
+          padding: 0;
+          min-width: 220px; }
+          .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box {
+            width: 704px;
+            height: 318px;
+            padding: 88px 0 0; }
+            .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form {
+              width: 460px;
+              margin: 0 auto; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear {
+                height: 58px; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .form-item {
+                  float: left;
+                  width: auto;
+                  height: 40px;
+                  margin: 0 8px 0 0;
+                  padding-bottom: 18px;
+                  position: relative; }
+                  .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .form-item .module-form-row {
+                    height: 36px;
+                    border-radius: 6px;
+                    line-height: 36px;
+                    font-size: 14px;
+                    margin-bottom: 0;
+                    display: block;
+                    position: relative;
+                    background-color: #FFF;
+                    border: 1px solid #CCC;
+                    opacity: .618;
+                    box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+                    transition: all 1s; }
+                    .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .form-item .module-form-row i {
+                      position: absolute;
+                      left: 15px;
+                      top: 0;
+                      font-size: 14px;
+                      color: #333;
+                      line-height: 36px; }
+                    .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .form-item .module-form-row input {
+                      padding-left: 15px;
+                      margin-top: 8px;
+                      font-size: 14px;
+                      position: relative;
+                      z-index: 3;
+                      padding: 0 13px 0 15px;
+                      background: none;
+                      border: none;
+                      color: #333;
+                      box-shadow: none;
+                      outline: none; }
+                    .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .form-item .module-form-row .verify-error {
+                      position: absolute;
+                      right: 6px;
+                      top: 5px;
+                      background: #E66157;
+                      opacity: 1;
+                      z-index: 5;
+                      padding: 0 9px;
+                      border-radius: 5px;
+                      line-height: 26px;
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: #fff;
+                      display: none; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .small-item {
+                  width: 180px; }
+                  .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .small-item:hover {
+                    opacity: 1; }
+                  .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .fn-clear .small-item input {
+                    width: 137px; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-mobile {
+                width: 251px; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-mobile:hover {
+                  opacity: 1; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-mobile input {
+                  width: 208px; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel-area {
+                width: 119px; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel-area:hover {
+                  opacity: 1; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel-area input {
+                  width: 76px; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel {
+                width: 312px; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel:hover {
+                  opacity: 1; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-tel input {
+                  width: 269px; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-select .form-select-row {
+                height: 36px;
+                margin: 1px;
+                border: 1px solid #bfbfbf;
+                border-radius: 5px;
+                box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.06) inset;
+                background: -webkit-linear-gradient(top, #fdfdfd, #f1f1f1);
+                background: -moz-linear-gradient(top, #fdfdfd, #f1f1f1);
+                background: -ms-linear-gradient(top, #fdfdfd, #f1f1f1);
+                background: -o-linear-gradient(top, #fdfdfd, #f1f1f1);
+                background: linear-gradient(top, #fdfdfd, #f1f1f1);
+                line-height: 33px;
+                text-indent: 16px;
+                font-size: 13px;
+                color: #333;
+                outline: none;
+                cursor: pointer;
+                box-sizing: border-box; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-select .form-select-after {
+                display: block;
+                position: absolute;
+                right: 15px;
+                top: 14px;
+                z-index: 2;
+                width: 10px;
+                height: 9px;
+                background: url(../images/order/select-arrow.png) no-repeat; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-select .provice select {
+                width: 160px;
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-select .mycity select {
+                width: 145px;
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-select .areas select {
+                width: 120px;
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-street {
+                width: 443px; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-street:hover {
+                  opacity: 1; }
+                .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .address-form .form-item .small-item-street input {
+                  width: 400px; }
+            .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .check-item {
+              display: block;
+              padding-bottom: 18px;
+              position: relative;
+              margin: 0 auto; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .check-item input {
+                display: none; }
+              .module-dialog .dialog-panel .dialog-con .animate-layer .dialog-inner .save-address-box .check-item span {
+                display: inline-block;
+                position: relative;
+                top: 1px;
+                float: left;
+                margin-right: 5px;
+                width: 20px;
+                height: 20px;
+                background: url(../images/order/checkbox-bg.png) no-repeat;
+                cursor: pointer; }
+    .module-dialog .dialog-panel .dialog-btn-wrap {
+      height: 51px;
+      padding: 18px 10px 0;
+      background: url(../images/order/account-bottom-bar-bg.png) repeat-x;
+      line-height: 51px;
+      border-radius: 0 0 13px 13px; }
+      .module-dialog .dialog-panel .dialog-btn-wrap .save-btn {
+        width: 100px;
+        float: right;
+        height: 38px;
+        display: block;
+        padding: 1px;
+        margin: 0 auto;
+        border-radius: 6px;
+        background: linear-gradient(#5598c9, #2a6da2);
+        text-shadow: rgba(255, 255, 255, 0.49609) 0 1px 0;
+        text-align: center;
+        cursor: pointer; }
+        .module-dialog .dialog-panel .dialog-btn-wrap .save-btn a {
+          width: 100px;
+          height: 34px;
+          line-height: 34px;
+          display: block;
+          padding: 2px 0;
+          border-radius: 6px;
+          background: linear-gradient(#739fe1, #5f7ed7);
+          box-shadow: inset 0 1px 3px #92b6ec,inset 0 0 2px #627dca,inset 0 -2px 3px #4c69b8;
+          text-shadow: #4f70b3 0 -1px 0;
+          cursor: pointer;
+          color: #fff; }
+          .module-dialog .dialog-panel .dialog-btn-wrap .save-btn a:hover {
+            background: #5f7ed7; }
+      .module-dialog .dialog-panel .dialog-btn-wrap .delete-btn {
+        float: left;
+        width: 100px;
+        display: inline-block;
+        background: linear-gradient(#fff, #ececec);
+        border-radius: 6px;
+        overflow: hidden;
+        cursor: pointer;
+        height: 38px;
+        border: 1px solid #dbdde2;
+        line-height: 38px;
+        text-align: center; }
+        .module-dialog .dialog-panel .dialog-btn-wrap .delete-btn a {
+          display: block;
+          padding: 0 20px;
+          color: #666; }
+          .module-dialog .dialog-panel .dialog-btn-wrap .delete-btn a:hover {
+            background: #F2F2F2; }
+
+.item-pic img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,92 @@
+/*-----------------------------------------------------------------------------
+样式范围：section-1->rhythm区域
+功能：样式的初始处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+
+
+.rhythmBox{
+	width:100%;
+	height: 500px;
+	background: transparent;
+	position: absolute;
+	bottom:0;
+	font-family: FZYouHJW;
+	margin: 0 auto;
+}
+.rhythmTitBox{
+	transition:all .6s;
+	z-index: 21;
+	position: relative;
+}
+.rhythmTit{
+	width:100%;
+	text-align: center;
+	font-size: 49px;
+    margin: 0 0 10px;
+    color: #212121;
+    line-height: 1.42;
+    font-weight: 200;
+    background: transparent;
+    
+}
+.select{
+	font-size: 20px;
+	text-align: center;
+	font-family: FZYouHJW2;
+}
+.select span{
+	padding: 0 15px 0 20px;
+	font-weight: 300;
+	cursor: default;
+	color: #333;
+}
+.rhythm{
+	position: absolute;
+	bottom: 0px;
+	left:0;
+	width:100%;
+	transition:all .4s;		
+	background: transparent;
+	overflow: hidden;
+}
+.rhythm li{
+    float: left;
+	width: 13.8%;
+	transition:all .2s;
+	padding: .24285714285715%;
+	height:420px;
+	cursor: pointer;
+	position: relative;
+	
+}
+.rhythm li img{
+	width: 100%;
+	height:auto;
+	position: absolute;
+	bottom: -20px;
+	
+
+}
+
+/*-----------------------------------------------------------------------------
+样式范围：section-1->rhythm区域
+功能：样式的初始处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+
+.rhythmTitMove{
+	transform: translateY(40px);
+}
+.rhythmTitFade{
+	opacity: 0;
+}
+.rhythmImgMove{
+	animation:swing .6s 1;
+}
+@keyframes swing{
+	from{transform: translateY(0);}
+	30%{transform: translateY(30px);}
+	50%{transform: translateY(-80px);}
+	to{transform: translateY(0);}
+}

@@ -1,0 +1,58 @@
+/*-----------------------------------------------------------------------------
+样式范围：section区域
+功能：对section样式的初始样式处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+#mainwrap{width:100%;height:100%;transition:all .6s;}
+html,body{ width:100%; height:100%; overflow:hidden;}
+.section-wrap{ width:100%;height:100%;overflow:visible;transition:transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition:-webkit-transform 1s cubic-bezier(0.86,0,0.03,1);}
+.section-wrap .section{ position:relative; width:100%; height:100%; background-position:center center; background-repeat:no-repeat;}
+.section-wrap .section .title{width:100%;position:absolute;top:40%;color:#fff;font-size:10.4em;text-align:center;}
+.section-wrap .section .title p{ padding:0 4%;opacity:0}
+.section-wrap .section .title.active .tit{ opacity:1;transform:translateY(-25px);-webkit-transform:translateY(-25px);transition:all 2s cubic-bezier(0.86,0,0.8,1);-webkit-transition:all 2s cubic-bezier(0.86,0,0.8,1);}
+.section-wrap .section-1{ background-color:#337ab7}
+.section-wrap .section-2{ background-color:#5cb85c}
+.section-wrap .section-3{ background-color:#5bc0de}
+.section-wrap .section-4{ background-color:#f0ad4e}
+.section-wrap .section-5{ background-color:#d9534f}
+.put-section-0{ transform:translateY(-180px);-webkit-transform:translateY(-180px);}
+.put-section-1{ transform:translateY(-1080px);-webkit-transform:translateY(-1080px);}
+.put-section-2{ transform:translateY(-1960px);-webkit-transform:translateY(-1960px);}
+.put-section-3{ transform:translateY(-2850px);-webkit-transform:translateY(-2850px);}
+.put-section-4{ transform:translateY(-440%);-webkit-transform:translateY(-440%);}
+.section-btn {
+  width: 14px;
+  position: fixed;
+  right: 4%;
+  top: 20%;
+  filter: alpha(opacity=0);
+  opacity: 0; }
+  .section-btn li {
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-bottom: 12px;
+    background: #9E9E9E;
+    text-align: center;
+    color: #fff;
+    onsor: pointer; }
+  .section-btn .on {
+    border: 1px solid #9E9E9E;
+    background: none; }
+
+/*-----------------------------------------------------------------------------
+样式范围：section区域
+功能：对section样式的移动样式处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+
+.mainwrapMove{
+	transform: translateY(-270px);
+}
+
+.btnMove{
+	transform: translateY(-270px);
+}

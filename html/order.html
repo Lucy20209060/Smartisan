@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>填写订单 - Smartisan</title>
+		<link rel="stylesheet" href="../css/order.css" />
+		<link rel="shortcut icon" type="image/X-icon" href="../images/public/favicon.ico" />
+		<script src="../js/jquery.min.js"> 	</script>
+		<script src="../js/order.js"></script>
+		<!--<script src="../js/city.min.js"></script>
+		<script src="../js/jquery.cityselect.js"></script>-->
+		<script type="text/javascript" src="../js/cookie.js" ></script>
+	</head>
+	<body>
+	<div id="headerwrap">
+		<div class="headerMain">
+			<div class="container clearfix">
+				<h1 class="logo">
+					<a href="javascript:;">
+						logo
+					</a>
+				</h1>
+				<div class="nav">
+					<ul class="navMain">
+						<li><a href="javascript:;">在线商城</a></li>
+						<li><a class="active" href="javascript:;">Smartisan T2</a></li>
+						<li><a href="javascript:;">坚果手机</a></li>
+						<li><a href="javascript:;">Smartisan OS</a></li>
+						<li><a href="javascript:;">欢喜云</a></li>
+						<li><a href="javascript:;">应用下载</a></li>
+						<li><a href="javascript:;">官方论坛</a></li>
+					</ul>
+					<div class="login">
+						<a href="javascript:;" class="loginBtn">个人中心</a>
+						<div class="second-menu">
+							<div class="menu-avatar"></div>
+							<div class="menu-name">+86 178******515</div>
+							<ul class="menu-list">
+								<li class="myorder"><a href="" herf="javascript:;">我的订单</a></li>
+								<li class="customer-service"><a href="" herf="javascript:;">售后服务</a></li>
+								<li class="benefit"><a href="" herf="javascript:;">我的优惠</a></li>
+								<li class="information"><a href="" herf="javascript:;">账户资料</a></li>
+								<li class="address"><a href="" herf="javascript:;">收货地址</a></li>
+								<li class="logout"><a href="" herf="javascript:;">退出</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mainwrap">
+		<div class="main-content">
+			<div class="address-box order-information">
+				<div class="title"><h2>收货信息</h2></div>
+				<div class="detail-add">
+					<ul class="add-list">
+						<li class="active lists">
+							<div class="add-box">
+								<div class="names">李福玲</div>
+								<div class="tel">17806001551</div>
+								<div class="add">河南省郑州市金水区</br>经八路街道纬五路河南教育学院经纬中学楼千峰教育</div>
+							</div>
+							<div class="editor">
+								<span class="revise">修改</span>
+								<span class="delete">删除</span>
+							</div>
+						</li>
+						<li class="od-add lists">
+							<span></span>
+							<p>使用新地址</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bill-box order-information">
+				<div class="bill-title title"><h2>发票信息</h2></div>
+				<div class="detail-bill">
+					<p class="invoice-detail  active">发票类型：电子发票</p>
+					<div class="radio-box">
+						发票抬头：
+						<lable><input type="radio" name="ral"/><span class="radio-btn"><a class="blue-on" href="javascript:;"></a></span>个人</lable>
+						<lable><input type="radio"  name="ral"/><span class="radio-btn2" ><a href="javascript:;"></a></span>单位</lable>
+						<div class="proving">
+							<input type="text" value="请填写公司抬头" />
+							<div class="verify-error">必填</div>
+						</div>
+					</div>
+					<p class="invoice-detail">发票内容：购买商品明细</p>
+					<p class="invoice-detail last">电子发票是税务局认可的有效收付款凭证，可作为售后服务凭据。</br>
+							电子发票打印后可以用于企业报销。
+					</p>
+				</div>
+			</div>
+			<div class="product-list order-information">
+				<div class="product-title title">
+					<h2>购物清单</h2>
+				</div>
+				<div class="godds-detalis">
+					<div class="detalis-title">
+						<span class="goods-name">商品名称</span>
+						<span class="goods-total">小计</span>
+						<span class="goods-number">数量</span>
+						<span class="goods-price">单价</span>
+					</div>
+					<div class="goods-table">
+						<div class="goods-group">
+							<!--<div class="goods-item">
+								<div class="item-pic">
+									<a href="javascript:;">
+										<img src="" alt="" />
+									</a>
+								</div>
+								<div class="item-name">
+									<a href="javascript:;">名称</a>
+								</div>
+								<div class="item-total">15</div>
+								<div class="item-number">1</div>
+								<div class="item-price">15</div>
+							</div>-->
+						</div>
+					</div>
+				</div>
+				<div class="goods-table2">
+					<div class="order-discount-line">
+						<p class="order-total-line"></p>
+						<p>运费+￥15.00</p>
+					</div>
+				</div>
+				<div class="box-inner">
+					<div class="last-payment">
+						<span class="sub-btn"><a href="javascript:;">提交订单</a></span>
+						<span class="prices">应付金额 <em class="order_all_price"></em></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-------------------------------------------------------------蒙版--------------------------------------------->
+	<div class="module-dialog-layer"></div>
+	
+	<!------------------------------------------------------------添加地址--------------------------------------------->
+	
+	<div class="module-dialog">
+		<div class="dialog-panel">
+			<div class="topbar">
+				<div class="dialog-tit">
+					<h3>管理收货地址</h3>
+					<span></span>
+				</div>
+			</div>
+			<div class="dialog-con">
+				<div class="animate-layer">
+					<div class="dialog-inner">
+						<div class="save-address-box">
+							<div class="address-form">
+								<div class="fn-clear">
+									<div class="form-item">
+										<div class="small-item  module-form-row">
+											<i>收货人姓名</i>
+											<input type="text" class="myname" data-verify=":notNull/errorStr/strRange,{0-20}"/>
+											<div class="verify-error">必填</div>
+										</div>
+									</div>
+									<div class="form-item">
+										<div class="small-item-mobile module-form-row">
+											<i>手机号</i>
+											<input type="text" class="myphone" data-verify=":notNull/mobile"  data-verifyed="false"/>
+											<div class="verify-error">必填</div>
+										</div>
+									</div>
+								</div>
+								<div class="fn-clear">
+									<div class="form-item ">
+										<div class="small-item-tel-area module-form-row">
+											<i>区号（可选）</i>
+											<input type="text" class="area-number" data-verify=":nullOrTelephoneArea" data-verifyed="false"/>
+											<div class="verify-error">格式错误</div>
+										</div>
+									</div>
+									<div class="form-item">
+										<div class="small-item-tel module-form-row">
+											<i>固定电话（可选）</i>
+											<input type="text" class="phone-number" data-verify=":nullOrTelephone"/>
+											<div class="verify-error">格式错误</div>
+										</div>
+									</div>
+								</div>
+								<div class="fn-clear">
+									<div class="form-select form-item">
+										<div class="provice">
+											<select name="provice-code" class="form-select-row prov" data-verify=":notNull" data-verifyed="false">
+												<option value="0">请选择省份</option>
+												<option value="" selected="selected">山东</option>
+											</select>
+											<div class="form-select-after"></div>
+										</div>
+									</div>
+									<div class="form-select form-item">
+										<div class="mycity  ">
+											<select name="city-code" class="form-select-row city"data-verify=":notNull" data-verifyed="true">
+												<option value="0" >请选择城市</option>
+												<option value="菏泽"  selected="selected">菏泽</option>
+											</select>
+											<div class="form-select-after"></div>
+										</div>
+									</div>
+									<div class="form-select form-item">
+										<div class="areas">
+											<select name="city-code" class="form-select-row dist"data-verify=":notNull" data-verifyed="true">
+												<option value="0">请选择区县</option>
+												<option value="单县" selected="selected">单县</option>
+											</select>
+											<div class="form-select-after"></div>
+										</div>
+									</div>
+								</div>
+								<div class="fn-clear">
+									<div class="form-item">
+										<div class="small-item-street module-form-row">
+											<i>街道编号/名称，楼宇名称</i>
+											<input type="text" class="street" data-verify=":nullOrTelephone"/>
+											<div class="verify-error">必填</div>
+										</div>
+									</div>
+								</div>
+								<div class="check-item">
+									<input type="checkbox" />
+									<span></span>
+									设为默认地址
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dialog-btn-wrap">
+				<div class="save-btn common-btn"><a href="javascript:;">保存</a></div>
+				<div class="delete-btn common-btn"><a href="javascript:;">取消</a></div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

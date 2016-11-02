@@ -1,0 +1,383 @@
+{
+    "G100": [
+			    {	"title"	   :"Smartisan T2",
+			    	"explain"  :"买 T2 赠 S-1000 耳机",
+			    	"price"    :"1999.00",
+			    	"num"	   :6756,
+			        "mall_path0": "images/mall/253X253.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			       
+			    }
+    		],
+    "G101": [
+			    {	"title"	   :"JBL E30 头戴式耳机",
+			    	"explain"  :"40mm 驱动器、Pure Bass性能、人体工学设计头箍",
+			    	"price"    :"499.00",
+			    	"num"		:  5464,
+			        "mall_path0": "images/mall/253X253q.jpg",
+			        "mall_path1": "images/mall/253X2565753.jpg",
+			        "mall_path2": "images/mall/253X257667563.jpg",
+			        "mall_path3": "images/mall/253Xgt6g253.jpg"
+			    }, 
+			    {
+			       	"picNum"       :1,
+			        "specification":"40X40mm",
+			        
+			        "details0_path0":"../images/Goods_details/527X527m1.jpg",
+			        
+			        "details1_path0":"../images/Goods_details/527X527m2.jpg",
+			        
+			        "details2_path0":"../images/Goods_details/527X527m3.jpg",
+			        
+			        "details3_path0":"../images/Goods_details/527X527m4.jpg",
+			        
+			        "details4_path0":"../images/Goods_details/527X527m5.jpg",
+			        
+			        "colNum"       :5,
+			        "colSlect0":"../images/Goods_details/20X20m0.jpg",
+			        "colSlect1":"../images/Goods_details/20X20m1.jpg",
+			        "colSlect2":"../images/Goods_details/20X20m2.jpg",
+			        "colSlect3":"../images/Goods_details/20X20m3.jpg",
+			        "colSlect4":"../images/Goods_details/20X20m4.jpg",
+			        "colSlect5":"../images/Goods_details/20X20m5.jpg",
+			        
+			        "img_info_num" :5,
+			        "img_info0":"../images/Goods_details/detaile1.jpg",
+			        "img_info1":"../images/Goods_details/detaile2.jpg",
+			        "img_info2":"../images/Goods_details/detaile3.jpg",
+			        "img_info3":"../images/Goods_details/detaile4.jpg",
+			        "img_info4":"../images/Goods_details/detaile5.jpg"
+			    }, 
+			    {
+			        
+			    }
+    		],
+    "G102": [
+			    {	"title"	   :"bong2S 心率智能手环",
+			    	"explain"  :"实时指导运动、全天活动提醒、M4 芯片处理器",
+			    	"price"    :"129.00",
+			    	"num"	    :3245,
+			        "mall_path0": "images/mall/253X2536.jpg",
+			        "mall_path1": "images/mall/253Xrwefsdgsdf253.jpg",
+			        "mall_path2": "images/mall/253X25rfgo53.jpg",
+			        "mall_path3": "images/mall/253X34werf253.jpg"
+			    }, 
+			    {	
+			    	"picNum"       :3,
+			        "specification":"无",
+			        
+			        "details0_path0":"../images/Goods_details/527X527a0.jpg",
+			        "details0_path1":"../images/Goods_details/527X527a2.jpg",
+			        "details0_path2":"../images/Goods_details/527X527a2.jpg",
+			        
+			        "details1_path0":"../images/Goods_details/527X527h0.jpg",
+			        "details1_path1":"../images/Goods_details/527X527h1.jpg",
+			        "details1_path2":"../images/Goods_details/527X527h2.jpg",
+			        
+			        "details2_path0":"../images/Goods_details/527X527b0.jpg",
+			        "details2_path1":"../images/Goods_details/527X527b1.jpg",
+			        "details2_path2":"../images/Goods_details/527X527b2.jpg",
+			        
+			        "details3_path0":"../images/Goods_details/527X527z0.jpg",
+			        "details3_path1":"../images/Goods_details/527X527z1.jpg",
+			        "details3_path2":"../images/Goods_details/527X527z2.jpg",
+			        
+			        "colNum"       :4,
+			        "colSlect0":"../images/Goods_details/20X20qq1.jpg",
+			        "colSlect1":"../images/Goods_details/20X20qq2.jpg",
+			        "colSlect2":"../images/Goods_details/20X20qq3.jpg",
+			        "colSlect3":"../images/Goods_details/20X20qq4.jpg",
+			        
+			        "img_info_num" :13,
+			        "img_info0":"../images/Goods_details/1_1463536960_details1.jpg",
+			        "img_info1":"../images/Goods_details/2_1463536960_details2.jpg",
+			        "img_info2":"../images/Goods_details/3_1463536960_details3.jpg",
+			        "img_info3":"../images/Goods_details/4_1463536960_details4.jpg",
+			        "img_info4":"../images/Goods_details/5_1463536960_detail.jpg",
+			        "img_info5":"../images/Goods_details/6_1463536960_details4.jpg",
+			        "img_info6":"../images/Goods_details/7_1463536960_detail.jpg",
+			        "img_info7":"../images/Goods_details/8_1463536960_detail.jpg",
+			        "img_info8":"../images/Goods_details/9_1463536960_detail.jpg",
+			        "img_info9":"../images/Goods_details/10_1463536960_detail.jpg",
+			        "img_info10":"../images/Goods_details/11_1463536960_detail.jpg",
+			        "img_info11":"../images/Goods_details/12_1463536960_detail.jpg",
+			        "img_info12":"../images/Goods_details/13_1463536960_detail.jpg"
+			        
+			        
+			        
+			        
+			    }, 
+			    {
+			        
+			    },
+			    {
+			    	
+			    	"color1":"#955AB8",
+			    	"color2":"#cc5656",
+			    	"color3":"#4668e6",
+			    	"color4":"#fbfbfb"
+			    }
+    		],	
+   	"G103": [
+			    {	"title"	   :"坚果手机硅胶保护套",
+			    	"explain"  :"TPU 环保材质、与系统主题内外呼应",
+			    	"price"    :"15.00",
+			    	"num"	    :354,
+			        "mall_path0": "images/mall/253Xd253.jpg",
+			        "mall_path1": "images/mall/253X2645rf53.jpg",
+			        "mall_path2": "images/mall/253X2jtyy454353.jpg",
+			        "mall_path3": "images/mall/25mhu3X253.jpg",
+			        "mall_path4": "images/mall/253X25567rfas3.jpg",
+			        "mall_path5": "images/mall/253X2zas53.jpg",
+			        "mall_path6": "images/mall/253X2ngv53.jpg"
+			    }, 
+			    {
+			        "picNum"       :3,
+			        "specification":"适用坚果手机",
+			        "details0_path0":"../images/Goods_details/527X527t1.jpg",
+			        "details0_path1":"../images/Goods_details/527X527t2.jpg",
+			        "details0_path2":"../images/Goods_details/527X527t3.jpg",
+			        
+			        "details1_path0":"../images/Goods_details/527X527q1.jpg",
+			        "details1_path1":"../images/Goods_details/527X527q2.jpg",
+			        "details1_path2":"../images/Goods_details/527X527q3.jpg",
+			        
+			        "details2_path0":"../images/Goods_details/527X527w1.jpg",
+			        "details2_path1":"../images/Goods_details/527X527w2.jpg",
+			        "details2_path2":"../images/Goods_details/527X527w3.jpg",
+			        
+			        "details3_path0":"../images/Goods_details/527X527e1.jpg",
+			        "details3_path1":"../images/Goods_details/527X527e2.jpg",
+			        "details3_path2":"../images/Goods_details/527X527e3.jpg",
+			        
+			        "details4_path0":"../images/Goods_details/527X527r1.jpg",
+			        "details4_path1":"../images/Goods_details/527X527r2.jpg",
+			        "details4_path2":"../images/Goods_details/527X527r3.jpg",
+			        
+			        "details5_path0":"../images/Goods_details/527X527u1.jpg",
+			        "details5_path1":"../images/Goods_details/527X527u2.jpg",
+			        "details5_path2":"../images/Goods_details/527X527u3.jpg",
+			        
+			        "details6_path0":"../images/Goods_details/527X527y1.jpg",
+			        "details6_path1":"../images/Goods_details/527X527y2.jpg",
+			        "details6_path2":"../images/Goods_details/527X527y3.jpg",
+			        
+			        "colNum"       :7,
+			        "colSlect0":"../images/Goods_details/20X20c0.jpg",
+			        "colSlect1":"../images/Goods_details/20X20c1.jpg",
+			        "colSlect2":"../images/Goods_details/20X20c2.jpg",
+			        "colSlect3":"../images/Goods_details/20X20c3.jpg",
+			        "colSlect4":"../images/Goods_details/20X20c4.jpg",
+			        "colSlect5":"../images/Goods_details/20X20c5.jpg",
+			        "colSlect6":"../images/Goods_details/20X20c6.jpg",
+			        
+			        "img_info_num" :8,
+			        "img_info0":"../images/Goods_details/1_1471957584_detail.jpg",
+			        "img_info1":"../images/Goods_details/2_1471957584_detail.jpg",
+			        "img_info2":"../images/Goods_details/3_1471957584_detail.jpg",
+			        "img_info3":"../images/Goods_details/4_1471957584_detail.jpg",
+			        "img_info4":"../images/Goods_details/5_1471957584_detail.jpg",
+			        "img_info5":"../images/Goods_details/6_1471957584_detail.jpg",
+			        "img_info6":"../images/Goods_details/7_1471957584_detail.jpg",
+			        "img_info7":"../images/Goods_details/8_1471957584_detail.jpg"
+			        
+			    },
+			    {
+			        
+			    }
+    		],
+    "G104": [
+			    {	"title"	   :"Smartisan T2",
+			    	"explain"  :"买 T2 赠 S-1000 耳机",
+			    	"price"    :"1999.00",
+			    	"num"	    :6756,
+			        "mall_path0": "images/mall/253X253.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],	
+   	"G105": [
+			    {	"title"	   :"坚果手机 标准版",
+			    	"explain"  :"买坚果手机赠彩色背壳和硅胶保护套",
+			    	"price"    :"799.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/253X253y1.jpg",
+			        "mall_path1": "images/mall/253X253y2.jpg",
+			        "mall_path2": "images/mall/253X253y3.jpg",
+			        "mall_path3": "images/mall/253X253y4.jpg",
+			        "mall_path4": "images/mall/253X253y5.jpg",
+			        "mall_path5": "images/mall/253X253y6.jpg",
+			        "mall_path6": "images/mall/253X253y7.jpg",
+			        "mall_path7": "images/mall/253X253y8.jpg",
+			        "mall_path8": "images/mall/253X253y9.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],
+    "G106": [
+			    {	"title"	   :"Smartisan T恤 儿童款",
+			    	"explain"  :"100% 进口 SUPIMA 棉、刷毛工艺处理、环保胶浆印花工艺",
+			    	"price"    :"129.00",
+			    	"num"	    :564,
+			        "mall_path0": "images/mall/253X25ew3.jpg",
+			        "mall_path1": "images/mall/253X2weqre53.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],
+   	"G107": [
+			    {	"title"	   :"Smartisan T恤 女款",
+			    	"explain"  :"100% 进口 SUPIMA 棉、刷毛工艺处理、牛皮纸袋包装",
+			    	"price"    :"129.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/253X253a1.jpg",
+			        "mall_path1": "images/mall/253X253a2.jpg",
+			        "mall_path2": "images/mall/253X253a3.jpg",
+			        "mall_path3": "images/mall/253X253a4.jpg",
+			        "mall_path4": "images/mall/253X253a5.jpg",
+			        "mall_path5": "images/mall/253X253a6.jpg",
+			        "mall_path6": "images/mall/253X253a7.jpg",
+			        "mall_path7": "images/mall/253X253a8.jpg",
+			        "mall_path8": "images/mall/253X253a9.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],
+    "G108": [
+			    {	"title"	   :"Smartisan S-1000 耳机",
+			    	"explain"  :"VSONIC 创始人全程参与调音",
+			    	"price"    :"129.00",
+			    	"num"	    :35,
+			        "mall_path0": "images/mall/253X253q1.jpg",
+			        "mall_path1": "images/mall/253X253q2.jpg",
+			        "mall_path2": "images/mall/253X253q3.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G109": [
+			    {	"title"	   :"Smartisan 原装数据线",
+			    	"explain"  :"高品质磨砂金属面、总长1068 mm，更广泛的使用范围",
+			    	"price"    :"50.00",
+			    	"num"	    :4353,
+			        "mall_path0": "images/mall/253X253w1.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G110": [
+			    {	"title"	   :"UA&JBL 无线蓝牙运动耳机",
+			    	"explain"  :"IPX-5 级防水、MC3 三键式线控、8 小时续航",
+			    	"price"    :"1999.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/253X2erweeqw53.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G111": [
+			    {	"title"	   :"Misfit Ray 智能运动手环",
+			    	"explain"  :"久坐提醒、来电/短信提醒、50米防水",
+			    	"price"    :"699.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/25r4353X253.jpg",
+			        "mall_path1": "images/mall/25r4353X254.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G112": [
+			    {	"title"	   :"铁三角 ATH-MSR7 HIFI 耳机",
+			    	"explain"  :"单边可换线设计、3 种耳机线可选、兼容强大",
+			    	"price"    :"129.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/253erX2erwe53.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G113": [
+			    {	"title"	   :"先锋 APS-BA202S 蓝牙音箱",
+			    	"explain"  :"360° 立体声、抗震防磕碰、蜂巢双振膜立体声",
+			    	"price"    :"299.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/2gh53X253.jpg",
+			        "mall_path1": "images/mall/2gh53X254.jpg",
+			        "mall_path2": "images/mall/2gh53X255.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G114": [
+			    {	"title"	   :"Smartisan S-1000 耳机",
+			    	"explain"  :"VSONIC 创始人全程参与调音",
+			    	"price"    :"129.00",
+			    	"num"	    :214235,
+			        "mall_path0": "images/mall/253Xererwesd253.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		],		
+    "G115": [
+			    {	"title"	   :"新游 N1 PRO 智能游戏手柄",
+			    	"explain"  :"牙无线手柄 、自有游戏大厅及模拟器",
+			    	"price"    :"119.00",
+			    	"num"	    :0,
+			        "mall_path0": "images/mall/2olh53X253.jpg"
+			    }, 
+			    {
+			        
+			    }, 
+			    {
+			        
+			    }
+    		]		
+}

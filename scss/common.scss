@@ -1,0 +1,447 @@
+@charset "utf-8";
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,input{ margin:0; padding:0;}
+i,b{font-style: normal;}
+a{text-decoration:none;}
+ul,dl{list-style:none;}
+img{border:0;display:block;}
+a {color:#666; text-decoration:none; }
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+.fl{float:left;}
+.fr{float:right;}
+body{
+    font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+    color: #666;
+    font-size: 14px;
+}
+.hide{display:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility: hidden;}
+@font-face { 
+    font-family: FZYouHJW; /*这里是说明调用来的字体名字*/ 
+    src: url("../font/FZYouHJW.TTF"); /*这里是字体文件路径*/ 
+} 
+
+@font-face { 
+    font-family: FZYouHJW2; /*这里是说明调用来的字体名字*/ 
+    src: url("../font/FZYouHJW2.TTF"); /*这里是字体文件路径*/ 
+} 
+
+/*-----------------------------------------------------------------------------
+样式范围：header区域
+功能：对头部样式的初始处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+
+#headerwrap{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	width:100%;
+    height: 138px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 22;
+    .headerMain{
+    	background: #fff url(../images/header/header-main_1f35f7bff9.png) repeat-x scroll 0 0 / contain ;
+    	position: relative;
+    	z-index: inherit;
+        height: 100px;
+        .container{
+            margin:0 auto;
+            width: 1120px;
+            .logo{
+                float: left;
+                padding: 25px 0 0 0;
+                a{
+                    display: block;
+                    margin-left: -5px;
+                    width: 50px;
+                    height: 50px;
+                    background: url(../images/header/logo_bc27d3d60f.png) no-repeat;
+                    -webkit-background-size: 50px auto;
+                    background-size: 50px;
+                    text-indent: -9999px;
+                    background-position: 0 -70px;
+                }
+            }
+            .nav{
+                float: right;
+                line-height: 25px;
+                .navMain{
+                    padding-top: 36px;
+                    float: left;
+                    li{
+                        float: left;
+                        a{
+                            color: #bdbdbd;
+                            opacity: 1;
+                            display: block;
+                            height: 28px;
+                            padding: 0 20px;
+                            line-height: 2.2;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .login{
+                    position: relative;
+                    float: left;
+                    padding: 39px 0 0 41px;
+                    margin-left: 20px;
+                    .loginBtn{
+                        display: block;
+                        background: 0 0;
+                        width: 96px;
+                        border: 1px solid #e0e0e0;
+                        color: #757575;
+                        position: relative;
+                        top: -2px;
+                        height: 26px;
+                        border-radius: 4px;
+                        line-height: 26px;
+                        font-size: 12px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+                .login:before{
+                    position: absolute;
+                    left: 0;
+                    top: 44px;
+                    overflow: hidden;
+                    display: block;
+                    content: " ";
+                    width: 1px;
+                    height: 13px;
+                    background: #e0e0e0;
+                }
+            }
+        }
+    }
+    .headerSub{
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        border-top: 1px solid rgba(0,0,0,.1);
+        border-bottom: 1px solid #e5e5e5;
+        .container{
+            background: 0 0;
+            height: 100%;
+            position: relative;
+            font-size: 12px;
+            margin:0 auto;
+            width: 1120px;
+            .phoneLogo{
+                background: url(../images/header/jianguo-logo_45159b71a5.png) no-repeat center;
+                background-size: contain;
+                height: 28px;
+                width: 60px;
+                position: absolute;
+                top: 50%;
+                margin-top:-14px;
+                left: 0;
+                transition: all .6s;
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            .crumbs{
+                float: left;
+                color: #45474B;
+                line-height: 38px;
+                position: relative;
+                float: left;
+                height: 36px;
+                left: 0px;
+                transition: all .6s;
+                li{
+                    float: left;
+                    a{
+                        color: #bdbdbd;
+                        padding: 4px 17px;
+                    }
+                    .on{
+                        color: #757575;
+                    }
+                }
+            }
+            .buywrap{
+                height: 36px;
+                float: right;
+                transition: all .6s;
+                .purchaseCode{
+                    float: left;
+                    line-height: 38px;
+                    height: 37px;
+                    margin-right: 0;
+                    display: block;
+                    a{
+                       color: #bdbdbd; 
+                    }
+                    
+                }
+                .buyNow{
+                    margin-top: 4px;
+                    float: right;
+                    position: relative;
+                    z-index: 21;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    padding: 0 0 0 40px;
+                    a{
+                        display: block;
+                        height: 26px;
+                        line-height: 26px;
+                        color: #fff;
+                        border: 1px solid rgba(0,0,0,.15);
+                        border-radius: 4px;
+                        background-color: #7194e6;
+                        background: linear-gradient(#7399f4,#678ff2);
+                        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+                        width: 96px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*-----------------------------------------------------------------------------
+样式范围：header区域
+功能：对头部样式的移动处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+.headerSubMove{
+    background:#fff url(../images/header/header-main_1f35f7bff9.png) repeat-x !important;
+}
+.crumbsMove{
+    transform: translate3d(60px,10px,0);
+    font-size: 14px;
+}
+.phoneLogoMove{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+.buywrapMove{
+    transform: translate3d(0,10px,0);
+}
+/*-----------------------------------------------------------------------------
+样式范围：footer区域
+功能：对尾部样式的初始样式处理
+作者：卢超
+-----------------------------------------------------------------------------*/
+a{
+    text-decoration:none; 
+    color:#333;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:100;
+}
+footer{
+    font-family: "PingFang SC";
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+    background: #fafafa;
+    border-top: 1px solid #e6e6e6;
+    position: fixed;
+    left:0;
+    bottom:-270px;
+    transition:all .6s;
+    .container{
+        width: 1220px;
+        margin: 0 auto;
+    }
+}
+.siteinfo{
+    height: 100px;
+    padding: 42px 0 32px;
+    border-bottom: 1px solid #e6e6e6;
+    dl{
+        float: left;
+        width: 149px;
+        dt{
+            color: #646464;
+            font-size: 12px;
+            padding-bottom: 10px;
+        }
+        dd{
+            
+            font-size: 12px;
+            font-weight: 200;
+            padding: 3px 0;
+            a{
+                color: #969696;;
+                &:hover{
+                    color: #5079d9;;
+                }
+            }
+            
+        }
+    }
+}
+
+.service{
+    float: right;
+    width: 240px;
+}
+.tel{
+    font-size: 30px;
+    text-align: right;
+    a{
+        color: #646464;
+        
+    }
+}
+.time{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 200;
+    color: #c3c3c3;
+    text-align: right;
+}
+.online{
+    display: flex;
+    justify-content: flex-end;
+    a{
+        width: 102px;
+        height: 32px;
+        line-height: 32px;
+        background: linear-gradient(#fcfcfc,#f5f5f5);
+        cursor: pointer;
+        font-size: 14px;
+        padding-left: 26px;
+        margin-top: 8px;
+        text-align: left;
+        color: #5079d9;
+        border: 1px solid #dcdcdc;
+        border-radius: 5px;
+        text-align: left;
+        i{
+            display: inline-block;
+            background: url(../images/public/fyusetf.png) no-repeat center;
+            margin-right: 6px;
+            width: 16px;
+            height: 32px;
+            vertical-align: middle;
+        }
+        &:hover{
+            background: #f5f5f5;
+        }
+    }
+}
+.copyright{
+    color: #434d55;
+    font-size: 12px;
+    padding: 19px 0 38px;
+    position: relative;
+    h4{
+        float: left;
+        height: 15px;
+        line-height: 15px;
+        color: #757575;
+        font-size: 100%;
+    }
+    h5{
+        float: left;
+        height: 15px;
+        line-height: 15px;
+        color: #757575;
+        margin-left: 3px;
+        font-size: 100%;
+    }
+    h6{
+        padding-top: 8px;
+        clear: both;
+        a{
+            display: inline-block;
+            span{
+                color: #bdbdbd;
+                font-size: 12px;
+                margin-right: 20px;
+                
+            }
+        }
+    }
+}
+.privacy{
+    float: left;
+    margin-left: 12px;
+    li{
+        float: left;
+        font-weight: 300;
+        line-height: 12px;
+        padding: 1px 10px 0;
+        border-left: 1px solid #ccc;
+        a{
+            color: #5079d9;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+    }
+}
+.change_language{
+    position: absolute;
+    right: -20px;
+    top: 20px;
+    display: block;
+    height: 31px;
+    width: 54px;
+    line-height: 33px;
+    padding: 10px 20px 10px 44px;
+    background-color: transparent;
+    &:hover{
+        color: #406dd6;
+    }
+    &:before{
+        position: absolute;
+        content: " ";
+        width: 16px;
+        height: 15px;
+        left: 19px;
+        top: 18px;
+        background: url(../images/public/flag_afd0e7c69a.png) 0 0 no-repeat;
+        background-size: 16px 80px;
+    }
+}
+.caret_down{
+    position: absolute;
+    display: inline-block;
+    width: 6px;
+    right: 23px;
+    top:20px;
+    &:before{
+        content: "";
+        display: block;
+        border: 4px solid;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-bottom-color: #45474b;
+        
+    }
+    
+}
+.back_top{
+    background: url(../images/public/arrow_up_e06a918c6b.png) no-repeat center;
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 634px;
+    cursor: pointer;
+    z-index: 40;
+}
+
+/*-----------------------------------------------------------------------------
+样式范围：footer区域
+功能：对尾部样式的移动处理
+作者：赵乘
+-----------------------------------------------------------------------------*/
+.footerMove{
+    transform:translateY(-270px);
+}

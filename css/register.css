@@ -1,0 +1,390 @@
+@charset "UTF-8";
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "微软雅黑";
+}
+
+.boxshadow {
+  box-shadow: 0 9px 30px -6px rgba(0, 0, 0, 0.2), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 10px 20px -10px rgba(0, 0, 0, 0.04);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#register-container {
+  width: 100%;
+  min-height: 910px;
+  background: url(../images/login-reg/login-bg.png) repeat;
+  padding-top: 76px;
+  position: relative;
+}
+
+.register-box {
+  width: 450px;
+  min-height: 600px;
+  border: 1px solid #dadada;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #fff url(../images/login-reg/login-form-bg.png) repeat-x left bottom;
+}
+
+.register-title {
+  width: 450px;
+  background: linear-gradient(#fff, #f5f5f5);
+  border-bottom: 1px solid #dcdcdc;
+  border-radius: 13px 13px 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.register-title h4 {
+  font: 600 20px/61px "微软雅黑";
+  color: #666;
+}
+
+.register-form {
+  padding: 30px 40px 24px;
+}
+
+.someInput li {
+  position: relative;
+  margin-bottom: 15px;
+  height: 48px;
+}
+.someInput li > div {
+  height: 46px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  opacity: 0.618;
+}
+.someInput li div:first-child {
+  float: left;
+  position: relative;
+}
+.someInput li div:first-child span:first-child {
+  float: left;
+  width: 46px;
+  height: 46px;
+  border-right: 1px solid #ccc;
+  box-shadow: 1px 0 3px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(#f8f8f8, #fafafa);
+  border-radius: 6px 0 0 6px;
+}
+.someInput li div:first-child span:first-child i {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.someInput li div:first-child span:nth-child(2) {
+  color: #bebebe;
+  font-size: 16px;
+  line-height: 46px;
+  position: absolute;
+  left: 64px;
+  top: 0;
+}
+.someInput li div:first-child span:nth-child(3) {
+  color: #bebebe;
+  font-size: 16px;
+  float: left;
+  line-height: 46px;
+  position: absolute;
+  left: 106px;
+  top: 0;
+}
+.someInput li div:first-child span:nth-child(5) {
+  cursor: pointer;
+  color: #666;
+  padding-right: 20px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  z-index: 100;
+  font-family: "华文黑体", "微软雅黑";
+  font-size: 15px;
+  line-height: 46px;
+  display: inline-block;
+  max-width: 76px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  background: url(../images/login-reg/register-country.png) no-repeat right 16px;
+}
+.someInput li div:first-child input {
+  padding: 5px 15px;
+  height: 34px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #333;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  top: 1px;
+  outline: none;
+}
+.someInput li div.sec-Div {
+  float: right;
+}
+.someInput li:nth-child(1) div {
+  width: 368px;
+}
+.someInput li:nth-child(1) div span:nth-child(2) {
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  width: 55px;
+  height: 46px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.someInput li:nth-child(1) div span:nth-child(2)::before {
+  content: "+";
+  padding-right: 2px;
+}
+.someInput li:nth-child(1) div input {
+  width: 158px;
+  padding: 5px 0;
+}
+.someInput li:nth-child(1) i {
+  background: url(../images/login-reg/login-icon.png) no-repeat -3px 0;
+}
+.someInput li:nth-child(2) div:first-child, .someInput li:nth-child(3) div:first-child {
+  width: 228px;
+}
+.someInput li:nth-child(2) div.sec-Div, .someInput li:nth-child(3) div.sec-Div {
+  width: 130px;
+}
+.someInput li:nth-child(2) input, .someInput li:nth-child(3) input {
+  width: 144px;
+}
+.someInput li:nth-child(2) i, .someInput li:nth-child(3) i {
+  background: url(../images/login-reg/login-icon.png) no-repeat -98px 0;
+}
+.someInput li:nth-child(2) div.sec-Div {
+  text-align: center;
+}
+.someInput li:nth-child(2) div.sec-Div img {
+  width: 116px;
+  height: 40px;
+  padding: 3px 0;
+}
+.someInput li:nth-child(3) div.sec-Div {
+  text-shadow: rgba(255, 255, 255, 0.49609) 0 1px 0;
+  text-align: center;
+  background: rgba(204, 204, 204, 0.618);
+}
+.someInput li:nth-child(3) div.sec-Div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 46px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #666;
+  text-shadow: #fff 0 1px 0;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3);
+  font-family: "微软雅黑";
+  opacity: .4;
+}
+.someInput li:nth-child(4) div, .someInput li:nth-child(5) div, .someInput li:nth-child(6) div {
+  width: 368px;
+}
+.someInput li:nth-child(4) input, .someInput li:nth-child(5) input, .someInput li:nth-child(6) input {
+  width: 270px;
+}
+.someInput li:nth-child(4) i, .someInput li:nth-child(5) i, .someInput li:nth-child(6) i {
+  background: url(../images/login-reg/login-icon.png) no-repeat -145px 0;
+}
+.someInput li:nth-child(5) i {
+  background: url(../images/login-reg/login-icon.png) no-repeat -50px 0;
+}
+.someInput li:nth-child(6) i {
+  background: url(../images/login-reg/login-icon.png) no-repeat -3px 0;
+}
+.someInput li:nth-child(5) div.pwTip, .someInput li:nth-child(6) div.pwTip {
+  width: 328px;
+  height: 50px;
+  border: 1px solid #DADADA;
+  border-radius: 6px;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 20;
+  background: #fff;
+  box-shadow: 0 9px 30px -6px rgba(0, 0, 0, 0.2), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 10px 20px -10px rgba(0, 0, 0, 0.04);
+  display: none;
+}
+.someInput li:nth-child(5) div.pwTip span, .someInput li:nth-child(6) div.pwTip span {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dadada;
+  background: #fff;
+  position: absolute;
+  top: -6px;
+  left: 67px;
+  border-radius: 3px;
+  z-index: 3;
+  transform: rotate(45deg);
+}
+.someInput li:nth-child(5) div.pwTip div, .someInput li:nth-child(6) div.pwTip div {
+  width: auto;
+  padding-left: 15px;
+  line-height: 50px;
+  position: absolute;
+  z-index: 30;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #fff;
+}
+.someInput li:nth-child(5) div.pwTip div p, .someInput li:nth-child(6) div.pwTip div p {
+  font-size: 14px;
+  font-family: "华文黑体", "微软雅黑";
+  color: #999;
+}
+
+.register-agree {
+  height: 20px;
+  margin: 15px 0 30px;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+.register-agree span {
+  width: 20px;
+  height: 20px;
+  margin: 2px 5px 0 0;
+  padding: 0;
+  border-radius: 50%;
+  background: url(../images/login-reg/login-checkbox.png) no-repeat 0 -20px;
+  float: left;
+  /*有一个点击切换背景图事件*/
+}
+.register-agree a {
+  color: #5079d9;
+}
+
+.register-btn {
+  width: 366px;
+  height: 46px;
+  line-height: 46px;
+  padding: 1px;
+  text-align: center;
+  text-shadow: #4F70B3 0 -1px 0;
+  background: linear-gradient(#6383c6, #4262af);
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #fff;
+  background: linear-gradient(#6f97e5, #527ed9);
+  box-shadow: inset 0 1px 2px #7ea1e8;
+  cursor: pointer;
+}
+
+.rOther-tip {
+  width: 368px;
+  height: 12px;
+  margin-top: 30px;
+  border-top: 1px solid #dadada;
+  padding-top: 24px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.rOther-tip a {
+  color: #5079d9;
+}
+.reminder{
+	display: inline-block;
+	background: #d16d62;
+	border-radius: 4px;
+	color: #fff;
+	display: none;
+	font-size: 12px;
+	font-weight: 400;
+	height: 26px;
+	line-height: 26px;
+	margin: 10px 0 0;
+	padding: 0 10px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	z-index: 5345;
+	display: none;
+}
+#yes{
+	position: absolute;
+	top: 15px;
+	right: 2px;
+	width: 60px;
+	height: 16px;
+	z-index: 233;
+	display: none;
+	background:#fff url(../images/login-reg/yes.png) no-repeat center;
+	
+}
+.verification_code{
+	position: relative;
+}
+.gray_layer{
+	position: absolute;
+	display: block;
+	width: 132px;
+	height: 100%;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+	border-radius: 4px;
+
+}
+.gray_layer_center{
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background: #262626;
+	display: none;
+	cursor: pointer;
+}
+.gray_layer_center img{
+	position: absolute;
+	display: inline-block;
+	top: 13px;
+	left: 56px;
+}
+.rotateimg{
+	animation: mymove 1s 1 linear;
+}
+@keyframes mymove{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+#register-agree .agree2{
+	background: url(../images/login-reg/login-checkbox.png) no-repeat;
+}
+/*# sourceMappingURL=register.css.map */

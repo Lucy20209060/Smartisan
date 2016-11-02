@@ -1,0 +1,18 @@
+.car-wrap{min-height: 100px;width:100%;overflow: hidden;background: #ededed;padding-bottom: 40px;}
+.car-cont{position: relative;max-width: 1120px;min-height:600px;overflow: hidden;margin:40px auto 0;border-radius: 8px;border: 1px solid #dcdcdc;border-color: rgba(0,0,0,.14);box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);}
+.cartit{padding-left: 30px;position: relative; background:linear-gradient(#fbfbfb,#ececec);height: 60px;padding: 0 10px 0 24px;border-bottom: 1px solid #d4d4d4;border-radius: 8px 8px 0 0;box-shadow: rgba(0,0,0,.06) 0 1px 7px;line-height: 60px;font-size: 14px;color: #333;font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;}
+.pro-cont{min-height: 100px;overflow: hidden;width: 100%;background:#fff;}
+.pro-tit{position: relative;background: #ededed;line-height: 38px;height: 38px;padding: 0 0 0 30px;font-size: 12px;background: #eee;border-bottom: 1px solid #dbdbdb;border-bottom-color: rgba(0,0,0,.08);}
+.pro-tit span{float:right;color: #838383;display: block;text-align: center;line-height: 38px;font-size: 12px;width:137px;height:38px;}
+.pro-tit .name{float:left;text-align: left;width:48px;height:38px;}
+.carbottom{height: 90px;width:100%;background: linear-gradient(#fdfdfd,#f9f9f9);border-top: 1px solid #e9e9e9;
+box-shadow: 0 -3px 8px rgba(0,0,0,.04);min-width: 768px;max-width: 1118px;position: absolute;bottom:0;}
+.carbottom-left{float: left;padding: 34px 26px;font-size: 12px;}
+.carbottom-left div{float:left;font-size: 12px;cursor: pointer;width:63px;background:url(../images/st_car/btn.png) no-repeat 0 0;height:30px;line-height: 30px;text-indent: 35px;}
+.carbottom-left span{position:relative;display: inline-block;height:30px;line-height: 30px;text-indent: 20px;color: #bbb;}
+.carbottom-left span:before{content:" ";display: block;position: absolute;left:5px;top: 8px;height: 12px;width: 1px;background:#bbb;cursor: default;}
+.carbottom-right{float: right;padding: 20px 30px 20px 15px;line-height: 50px;}
+.go{text-align:center;display:inline-block;border-radius: 9px;cursor: pointer;background: linear-gradient(#688fe8,#5079e1);color:#fff;width:130px;font-size: 18px;}
+.go a{color:#fff;}
+.go:hover {background: linear-gradient(#5598c9,#2a6da2);}
+.shipping-count span{color: #8a8a8a;}
